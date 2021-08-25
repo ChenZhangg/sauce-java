@@ -17,11 +17,7 @@
             <version>4.12</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.saucelabs</groupId>
-            <artifactId>sauce_java_common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+        
     </dependencies>
 
     <build>

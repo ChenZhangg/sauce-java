@@ -4,7 +4,7 @@ before_script:
 - pip install --user codecov
 install: true
 script:
-- mvn test -B -V
+- mvn -T 1C test -B -V
 jdk:
 - oraclejdk11
 - oraclejdk9
